@@ -8,6 +8,63 @@
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
+  "accounts":[ 
+   {  
+      "id":1,
+      "data":{  
+         "bic":"bic1",
+         "iban":"iban1"
+      },
+      "status":{  
+         "code":"Success",
+         "errorMessage":""
+      }
+   },
+   {  
+      "id":2,
+      "data":{  
+         "bic":"bic2",
+         "iban":"iban2"
+      },
+      "status":{  
+         "code":"Success",
+         "errorMessage":""
+      }
+   },
+   {  
+      "id":3,
+      "data":{  
+         "bic":"bic3",
+         "iban":"iban3"
+      },
+      "status":{  
+         "code":"Error",
+         "errorMessage":"Data does not exist"
+      }
+   },
+   {  
+      "id":4,
+      "data":{  
+         "bic":"bic4",
+         "iban":"iban4"
+      },
+      "status":{  
+         "code":"Success",
+         "errorMessage":""
+      }
+   },
+   {  
+      "id":5,
+      "data":{  
+         "bic":"bic1",
+         "iban":"iban5"
+      },
+      "status":{  
+         "code":"Error",
+         "errorMessage":"Invalid request"
+      }
+   }
+],
   "profile": {
     "name": "typicode"
   }
